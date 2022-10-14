@@ -11,19 +11,20 @@ The data are basics tweets data from WeRateDogs Twitter archive broken including
 
 In the assessment stage, we were able to identify the following quality and tidiness issues
 
-** Quality **
-● Contain retweets records
-● tweet_id is an int instead of a string
-● Irrelevant columns were dropped.
-● timestamp is a string not DateTime
-● column dog_breed based on image prediction from the image predictions table, 
+**Quality**
+
+* Contain retweets records
+* tweet_id is an int instead of a string
+* Irrelevant columns were dropped.
+* timestamp is a string not DateTime
+* column dog_breed based on image prediction from the image predictions table, 
 we can get the breed of dog by carrying out a voting mechanism based on the confidence level of the model, 
 by picking the breed whose prediction has the highest confidence level.
-● misrepresentation of NAN as none in name, dog_breed
-● Naming issues
-● Replace non-descriptive name
+* misrepresentation of NAN as none in name, dog_breed
+* Naming issues
+* Replace non-descriptive name
 
-** Tidiness **
+**Tidiness**
 
 ● retweet and favorite should be part of df table and all 3 tables should be one
 ● doggo, floofer, pupper and puppo should be one column dog_stage
