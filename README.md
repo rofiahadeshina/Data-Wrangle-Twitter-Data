@@ -26,8 +26,8 @@ by picking the breed whose prediction has the highest confidence level.
 
 **Tidiness**
 
-● retweet and favorite should be part of df table and all 3 tables should be one
-● doggo, floofer, pupper and puppo should be one column dog_stage
+* retweet and favorite should be part of df table and all 3 tables should be one
+* doggo, floofer, pupper and puppo should be one column dog_stage
 
 
 ## Summary of Findings
